@@ -22,6 +22,7 @@ from f5.bigip.tm.asm import Asm
 from f5.bigip.tm.auth import Auth
 from f5.bigip.tm.cm import Cm
 from f5.bigip.tm.gtm import Gtm
+from f5.bigip.tm.ilx import Ilx
 from f5.bigip.tm.ltm import Ltm
 from f5.bigip.tm.net import Net
 from f5.bigip.tm.shared import Shared
@@ -40,6 +41,7 @@ class Tm(OrganizingCollection):
             Auth,
             Cm,
             Gtm,
+            Ilx,
             Ltm,
             Net,
             Shared,
